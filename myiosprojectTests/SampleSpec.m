@@ -19,7 +19,7 @@ describe(@"Math", ^{
     
     it (@"failing test", ^{
         NSString *a = @"ciao";
-        [[a should] beNil];
+        [[a shouldNot] beNil];
     });
 });
 

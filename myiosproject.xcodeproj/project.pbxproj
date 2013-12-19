@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2AD6BFFF9D60426DBA8AE328 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2889D5B29DA34220A9FAD639 /* libPods.a */; };
-		C1ADA0E66CFC27636C0B60AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ADA9C2966700F191045211 /* Main.storyboard */; };
 		C1ADA1FB892559A3E1E2F6F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1ADA5361BB633FD18CD3D05 /* InfoPlist.strings */; };
 		C1ADA3DBA11E183F126D9480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ADA4D407CA455AE8AD1D6D /* Foundation.framework */; };
 		C1ADA58AB4EA77CCB46F3E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ADA8CBCF6BCF0130032283 /* Images.xcassets */; };
@@ -22,6 +21,7 @@
 		C1ADAD93ABB05A5E73E393C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1ADA7195527F49656541506 /* InfoPlist.strings */; };
 		C1ADAF51FF4571DEFE6B9FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ADA4CB28E8EAE97ADE99BC /* CoreGraphics.framework */; };
 		D59B5BBE1862F76D00CB2B32 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D59B5BBD1862F76D00CB2B32 /* SampleSpec.m */; };
+		D5C31A84186350B200641D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ADA9C2966700F191045211 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C31A84186350B200641D4A /* Main.storyboard in Resources */,
 				C1ADA1FB892559A3E1E2F6F4 /* InfoPlist.strings in Resources */,
 				C1ADA58AB4EA77CCB46F3E65 /* Images.xcassets in Resources */,
-				C1ADA0E66CFC27636C0B60AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
