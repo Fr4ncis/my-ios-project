@@ -16,6 +16,11 @@ describe(@"Math", ^{
         NSUInteger b = 26;
         [[theValue(a + b) should] equal:theValue(42)];
     });
+    
+    it (@"failing test", ^{
+        NSString *a = @"ciao";
+        [[a should] beNil];
+    });
 });
 
 SPEC_END
